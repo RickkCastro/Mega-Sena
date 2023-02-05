@@ -149,6 +149,9 @@ function renderSavedGame() {
       ulSavedGames.appendChild(liGame);
     }
 
+    var h3 = document.createElement('h3');
+    h3.textContent = 'Jogos salvos';
+    divSavedGames.appendChild(h3);
     divSavedGames.appendChild(ulSavedGames);
   }
 }
