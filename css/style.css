@@ -29,8 +29,8 @@ button:disabled {
 }
 
 .saved-games-list {
-  padding: 0px 10px;
   margin-top: 0px;
+  margin-left: -25px;
 }
 
 h1 {
