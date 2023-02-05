@@ -25,12 +25,15 @@ button:disabled {
 #megasena-saved-games {
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
 }
 
 .saved-games-list {
-  margin-top: 0px;
-  margin-left: -25px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
+  text-align: center;
 }
 
 h1 {
