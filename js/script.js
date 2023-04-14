@@ -25,7 +25,7 @@ function writeToLocalStorage() {
 }
 
 function createBoard() {
-  start.board = [];
+  state.board = [];
 
   for (var i = 1; i <= 60; i++) {
     state.board.push(i);
